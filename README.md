@@ -51,4 +51,5 @@ CMD if [ "${FABRIC_ENV}" = "1.18" ]; then \
     else \
       java -Xmx${MEMORY}G -jar fabric-server-mc.${FABRIC_ENV}-loader.0.14.21-launcher.0.11.2.jar nogui; \
     fi
+# DISCLAIMER this code to download and apply the patches was written by chatgpt bc bash is confusing lmao
 ```
